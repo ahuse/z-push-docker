@@ -12,3 +12,8 @@ docker run -d \
         -e MAILSERVER_PORT_SMTP_PORT=587 \
     causefx/z-push-docker
 ```
+
+# Build
+```shell
+docker build -t ahuse/z-push .
+```
